@@ -141,9 +141,9 @@ public class MyStepdefs {
         }
 
         if (expectedError.contains("Terms and Conditions")) {
-            String actualMissingTick = driver.findElement(By.cssSelector("span[data-valmsg-for='AgreeToCodeOfEthicsAndConduct']")).getText();
+            String actualMissingTick = driver.findElement(By.cssSelector("span[data-valmsg-for='TermsAccept']")).getText();
 
-            String expected = "You must confirm that you have read, understood and agree to the Code of Ethics and Conduct";
+            String expected = "You must confirm that you have read and accepted our Terms and Conditions";
 
             assertEquals(expected, actualMissingTick);
         }

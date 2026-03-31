@@ -29,10 +29,10 @@ Feature: Support Account Application Form Test
      | browser | bd          | fn       | ln        | ea                 | ce                  | pw      | cp       | tc   | age   | coe  | cj  | error |
      | Chrome  | 08/03/1978  | Henric   |           | phumpeti@gmail.com | phumpeti@gmail.com  | hejhopp | hejhopp  | yes  |  yes  | yes  | yes | Last Name is required  |
      | Chrome  | 08/03/1978  | Henric   | Wiktor    | phumpeti@gmail.com | phumpeti@gmail.com  | hejhopp | hejhopp1 | yes  |  yes  | yes  | yes | Password did not match |
-     | Chrome  | 08/03/1978  | Henric   | Wiktor    | phumpeti@gmail.com | phumpeti@gmail.com  | hejhopp | hejhopp  | no   |  yes  | yes  | yes | You must confirm that you have read, understood and agree to the Code of Ethics and Conduct |
+     | Chrome  | 08/03/1978  | Henric   | Wiktor    | phumpeti@gmail.com | phumpeti@gmail.com  | hejhopp | hejhopp  | no   |  yes  | yes  | yes | You must confirm that you have read and accepted our Terms and Conditions |
      | Edge    | 08/03/1978  | Henric   |           | phumpeti@gmail.com | phumpeti@gmail.com  | hejhopp | hejhopp  | yes  |  yes  | yes  | yes | Last Name is required  |
      | Edge    | 08/03/1978  | Henric   | Wiktor    | phumpeti@gmail.com | phumpeti@gmail.com  | hejhopp | hejhopp1 | yes  |  yes  | yes  | yes | Password did not match |
-     | Edge    | 08/03/1978  | Henric   | Wiktor    | phumpeti@gmail.com | phumpeti@gmail.com  | hejhopp | hejhopp  | no   |  yes  | yes  | yes | You must confirm that you have read, understood and agree to the Code of Ethics and Conduct |
+     | Edge    | 08/03/1978  | Henric   | Wiktor    | phumpeti@gmail.com | phumpeti@gmail.com  | hejhopp | hejhopp  | no   |  yes  | yes  | yes | You must confirm that you have read and accepted our Terms and Conditions |
      | Firefox | 08/03/1978  | Henric   |           | phumpeti@gmail.com | phumpeti@gmail.com  | hejhopp | hejhopp  | yes  |  yes  | yes  | yes | Last Name is required  |
      | Firefox | 08/03/1978  | Henric   | Wiktor    | phumpeti@gmail.com | phumpeti@gmail.com  | hejhopp | hejhopp1 | yes  |  yes  | yes  | yes | Password did not match |
-     | Firefox | 08/03/1978  | Henric   | Wiktor    | phumpeti@gmail.com | phumpeti@gmail.com  | hejhopp | hejhopp  | no   |  yes  | yes  | yes | You must confirm that you have read, understood and agree to the Code of Ethics and Conduct |
+     | Firefox | 08/03/1978  | Henric   | Wiktor    | phumpeti@gmail.com | phumpeti@gmail.com  | hejhopp | hejhopp  | no   |  yes  | yes  | yes | You must confirm that you have read and accepted our Terms and Conditions |
